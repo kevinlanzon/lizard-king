@@ -16,7 +16,7 @@ Setup
 
 Technologies used
 ----
-- Javascript
+- JavaScript
 - jQuery
 - AngularJS
 - NodeJS
