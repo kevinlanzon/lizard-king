@@ -40,7 +40,4 @@ How to run tests
 cd lizard-king
 run karma start
 ```
-Heroku (live)
------
 
-[Lizard King](https://lizard-king.herokuapp.com/)
