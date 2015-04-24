@@ -8,12 +8,6 @@ Requirements
 -  choose the funniest picture between two pictures
 -  there is a funniest picture leader board based on votes
 
-Setup
------
-- Run npm install
-- Run bower install
-- The server is nodeJS using ExpressJS using EJS templates. To run the webpage type 'node app.js'
-
 Technologies used
 ----
 - JavaScript
@@ -27,6 +21,13 @@ Technologies used
 - CSS
 - Git
 - Sublime Text
+
+ 
+Setup
+-----
+- Run npm install
+- Run bower install
+- The server is nodeJS using ExpressJS using EJS templates. To run the webpage type 'node app.js'
 
 Screenshot
 ---
