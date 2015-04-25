@@ -1,7 +1,7 @@
 Lizard King [![Code Climate](https://codeclimate.com/github/kevinlanzon/lizard-king/badges/gpa.svg)](https://codeclimate.com/github/kevinlanzon/lizard-king)
 ==========
 
-A funny gif comparison website built with [Meads](https://github.com/meads58), [Diego](https://github.com/jdiegoromero) and [Edd](https://github.com/eddbrown) for the three day Makerthon at Makers Academy.
+A funny gif comparison website built with [Meads](https://github.com/meads58), [Diego](https://github.com/jdiegoromero) and [Ed](https://github.com/eddbrown) for the three day Makerthon at Makers Academy.
 
 Requirements
 ----
