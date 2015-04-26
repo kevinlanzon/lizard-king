@@ -1,6 +1,5 @@
 describe('lizard King', function() {
 
-
   beforeEach(function() {
     browser.get("http://localhost:3000");
   });
@@ -12,17 +11,14 @@ describe('lizard King', function() {
     });
 
     it('should display two pictures', function() {
-
       expect($('.images.left').isPresent()).toBe(true);
       expect($('.images.right').isPresent()).toBe(true);
     });
 
     xit('should update the vote counter when submitting vote', function() {
       $('.button.left').click();
-
       expect($('.counter.left')).toEqual(1);
     });
-
   });
 
   describe('changes the images', function(){
@@ -33,10 +29,5 @@ describe('lizard King', function() {
       waits(2000)
       expect(link).toNotEqual($('.images.left').getAttribute("src"))
     });
-
-
   });
-
-
 });
-

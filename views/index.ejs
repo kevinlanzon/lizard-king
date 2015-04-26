@@ -14,7 +14,6 @@
     <script src="js/bank.js"></script>
     <script src="js/lizardKingController.js"></script>
 
-
     <title>Lizard King</title>
   </head>
 
@@ -56,15 +55,14 @@
    <br>
    <br>
 
-     </section>
+    </section>
 
-   <section class="row bottom");>
+    <section class="row bottom");>
 
     <section id="background-bottom" class="col-md-12 middle centering">
       <h4 class="font-effect-ice" id="bottom">The Lizard King!</h4>
       <ul ng-repeat="image in image_bank | orderBy : '-count' | limitTo:1 ">
       <li><img class="images-bottom" ng-src={{image.url}}></img></li>
 
-
- </body>
+  </body>
 </html>
