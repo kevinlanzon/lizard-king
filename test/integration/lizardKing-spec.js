@@ -15,7 +15,7 @@ describe('lizard King', function() {
       expect($('.images.right').isPresent()).toBe(true);
     });
 
-    xit('should update the vote counter when submitting vote', function() {
+    it('should update the vote counter when submitting vote', function() {
       $('.button.left').click();
       expect($('.counter.left')).toEqual(1);
     });

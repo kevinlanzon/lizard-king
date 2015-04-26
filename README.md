@@ -23,7 +23,7 @@ Technologies used
 - Git
 - Sublime Text
 
- 
+
 Setup
 -----
 - Run npm install
@@ -46,5 +46,6 @@ How to run tests
 ----
 ```sh
 cd lizard-king
-run node app.js
+run karma start
+
 ```

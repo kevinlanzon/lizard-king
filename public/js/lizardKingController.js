@@ -1,6 +1,6 @@
 var lizardKingApp = angular.module('LizardKing', ['ngRoute']);
 
-lizardKingApp.controller('LizardKingController', ['$scope', function($scope){
+lizardKingApp.controller('LizardKingController', ['$scope', function($scope) {
 
   $scope.image_bank = bank;
 
