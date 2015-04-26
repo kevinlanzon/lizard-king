@@ -2,7 +2,7 @@
 Lizard King
 ==========
 
-A funny gif comparison website built with [Meads](https://github.com/meads58), [Diego](https://github.com/jdiegoromero) and [Ed](https://github.com/eddbrown) for the three day Makerthon at Makers Academy.
+A project to find the funniest image/gif online. Built with [Meads](https://github.com/meads58), [Diego](https://github.com/jdiegoromero) and [Ed](https://github.com/eddbrown) for the three day Makerthon at Makers Academy.
 
 Requirements
 ----
@@ -16,8 +16,8 @@ Technologies used
 - AngularJS
 - NodeJS
 - Express with EJS templates
-- Karma
-- Protractor
+- Karma for unit testing
+- Protractor for integration testing
 - HTML
 - CSS
 - Git
@@ -47,5 +47,9 @@ How to run tests
 ```sh
 cd lizard-king
 run karma start
-
 ```
+Future Features
+-----
+- Add a persistence layer for the results with a database
+- Google scraper extension to build the gif list
+- Implement the Elo algorithm for scoring wins and losses

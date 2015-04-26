@@ -71,7 +71,7 @@ h4 {
   margin-top: 50px;
   margin-bottom: 50px;
   font-family: 'Bangers', cursive;
-  font-size: 150px;
+  font-size: 80px;
   text-align: center;
 }
 
@@ -91,7 +91,7 @@ header {
   height: 5%;
   background-color: transparent;
   color: white;
-  display: flex; /* http://learnlayout.com/flexbox.html */
+  display: flex;
 }
 
 .bottom {
@@ -103,7 +103,6 @@ header {
 .side-left {
   float: left;
   background-color: #6aa84f;
-
   border-top: 5px solid black;
   height: 100%;
   min-height: 100vh;
@@ -112,7 +111,6 @@ header {
 .side-right {
   float: left;
   background-color: #6aa84f;
-
   border-top: 5px solid black;
   min-height: 100vh;
 }
@@ -121,7 +119,7 @@ header {
   font-family: 'Bangers', cursive;
   background-color: white;
   border: 5px solid green;
-  color: black; /*text colour*/
+  color: black;
   padding: 5px 10px;
   border-radius: 4px;
 }
