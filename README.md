@@ -28,7 +28,7 @@ Setup
 -----
 - Run npm install
 - Run bower install
-- The server is nodeJS using ExpressJS using EJS templates. To run the webpage type 'node app.js'
+- The server is nodeJS using EJS templates. To run the webpage type 'node app.js'
 
 Screenshot
 ---
