@@ -36,6 +36,10 @@ Screenshot
         <img width="70%" src="/public/images/homepage.png">
 </div>
 
+Heroku (live)
+-----
+[LizardKing](https://lizardking.herokuapp.com/)
+
 How to clone this repo
 ----
 ```sh
