@@ -33,7 +33,7 @@ Setup
 Screenshot
 ---
 <div align="center">
-        <img width="70%" src="/public/images/homepage.png">
+        <img width="100%" src="/public/images/homepage.png">
 </div>
 
 How to clone this repo
