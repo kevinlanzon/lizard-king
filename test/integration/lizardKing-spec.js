@@ -21,9 +21,9 @@ describe('lizard King', function() {
     });
   });
 
-  describe('changes the images', function(){
+  describe('changes the images', function() {
 
-    it('when left funnier? button is clicked', function(){
+    it('when left funnier? button is clicked', function() {
       var link = $('.images.left').getAttribute("src");
       $('.images.left').click();
       waits(2000)

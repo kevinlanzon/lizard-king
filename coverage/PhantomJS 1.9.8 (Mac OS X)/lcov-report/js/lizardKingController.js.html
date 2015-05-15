@@ -15,10 +15,10 @@
 <div class="header high">
     <h1>Code coverage report for <span class="entity">js/lizardKingController.js</span></h1>
     <h2>
-        Statements: <span class="metric">85.71% <small>(24 / 28)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
-        Branches: <span class="metric">100% <small>(2 / 2)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Statements: <span class="metric">82.14% <small>(23 / 28)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Branches: <span class="metric">50% <small>(1 / 2)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         Functions: <span class="metric">77.78% <small>(7 / 9)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
-        Lines: <span class="metric">85.71% <small>(24 / 28)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Lines: <span class="metric">82.14% <small>(23 / 28)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
     <div class="path"><a href="../index.html">All files</a> &#187; <a href="index.html">js/</a> &#187; lizardKingController.js</div>
@@ -75,34 +75,35 @@
 48
 49
 50
-51</td><td class="line-coverage"><span class="cline-any cline-yes">1</span>
+51
+52</td><td class="line-coverage"><span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">5</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">5</span>
-<span class="cline-any cline-yes">16</span>
-<span class="cline-any cline-yes">16</span>
+<span class="cline-any cline-yes">12</span>
+<span class="cline-any cline-yes">12</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">5</span>
-<span class="cline-any cline-yes">8</span>
-<span class="cline-any cline-yes">8</span>
+<span class="cline-any cline-yes">6</span>
+<span class="cline-any cline-yes">6</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">8</span>
-<span class="cline-any cline-yes">2</span>
+<span class="cline-any cline-yes">6</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5</span>
-<span class="cline-any cline-yes">8</span>
-<span class="cline-any cline-yes">8</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">5</span>
-<span class="cline-any cline-yes">8</span>
-<span class="cline-any cline-yes">8</span>
+<span class="cline-any cline-yes">6</span>
+<span class="cline-any cline-yes">6</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5</span>
+<span class="cline-any cline-yes">6</span>
+<span class="cline-any cline-yes">6</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">5</span>
@@ -125,6 +126,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">5</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">var lizardKingApp = angular.module('LizardKing', ['ngRoute']);
 &nbsp;
 lizardKingApp.controller('LizardKingController', ['$scope', function($scope) {
@@ -133,34 +135,34 @@ lizardKingApp.controller('LizardKingController', ['$scope', function($scope) {
 &nbsp;
   randomImage = function() {
     var bankSize = $scope.image_bank.length;
-    return Math.floor(Math.random() * bankSize)
+    return Math.floor(Math.random() * bankSize);
   };
 &nbsp;
   $scope.getImage = function() {
-    $scope.getLeftImage()
-    $scope.getRightImage()
+    $scope.getLeftImage();
+    $scope.getRightImage();
 &nbsp;
-    if ($scope.newImageLeft == $scope.newImageRight){
-      $scope.getImage()
+    <span class="missing-if-branch" title="if path not taken" >I</span>if ($scope.newImageLeft === $scope.newImageRight) {
+<span class="cstat-no" title="statement not covered" >      $scope.getImage();</span>
     }
   };
 &nbsp;
   $scope.getLeftImage = function() {
-    $scope.leftIndex = randomImage()
+    $scope.leftIndex = randomImage();
     $scope.newImageLeft = $scope.image_bank[$scope.leftIndex].url;
   };
 &nbsp;
   $scope.getRightImage = function() {
-    $scope.rightIndex = randomImage()
+    $scope.rightIndex = randomImage();
     $scope.newImageRight = $scope.image_bank[$scope.rightIndex].url;
   };
 &nbsp;
   $scope.voteLeft = function() {
-    $scope.image_bank[$scope.leftIndex].count += 1
+    $scope.image_bank[$scope.leftIndex].count += 1;
   };
 &nbsp;
   $scope.voteRight = function() {
-    $scope.image_bank[$scope.rightIndex].count += 1
+    $scope.image_bank[$scope.rightIndex].count += 1;
   };
 &nbsp;
   $scope.superLeft = <span class="fstat-no" title="function not covered" >function() {</span>
@@ -175,12 +177,13 @@ lizardKingApp.controller('LizardKingController', ['$scope', function($scope) {
 &nbsp;
   $scope.getImage();
 &nbsp;
-}]);</pre></td></tr>
+}]);
+&nbsp;</pre></td></tr>
 </table></pre>
 
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Thu Apr 30 2015 20:48:23 GMT+0100 (BST)</div>
+    <div class="meta">Generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Fri May 15 2015 12:06:10 GMT+0100 (BST)</div>
 </div>
 <script src="../prettify.js"></script>
 <script>
