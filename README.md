@@ -2,7 +2,7 @@
 Lizard King
 ==========
 
-A project to find the funniest image/gif online. Built with [Meads](https://github.com/meads58), [Diego](https://github.com/jdiegoromero) and [Ed](https://github.com/eddbrown) for the three day Makerthon at Makers Academy.
+A project to find the funniest image or gif online. Built with [Meads](https://github.com/meads58), [Diego](https://github.com/jdiegoromero) and [Ed](https://github.com/eddbrown) for the three day Makerthon at Makers Academy.
 
 Requirements
 ----
@@ -33,7 +33,7 @@ Setup
 Screenshot
 ---
 <div align="center">
-        <img width="70%" src="/public/images/homepage.png">
+        <img width="105%" src="/public/images/homepage.png">
 </div>
 
 How to clone this repo
