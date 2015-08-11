@@ -4,9 +4,7 @@
   "description": "Lizard King ==========",
   "main": "app.js",
   "scripts": {
-    "test": "karma start",
-    "start": "node app.js",
-    "postinstall": "./node_modules/.bin/bower install"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",

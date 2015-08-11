@@ -6,29 +6,31 @@ A project to find the funniest image or gif online. Built with [Meads](https://g
 
 Requirements
 ----
--  choose the funniest picture between two pictures
--  there is a funniest picture leader board based on votes
+-  choose the funniest picture/gif between two pictures
+-  there is a funniest picture/gif leader board based on votes
 
 Technologies used
 ----
 - JavaScript
-- jQuery
 - AngularJS
 - NodeJS
 - Express with EJS templates
 - Karma for unit testing
 - Protractor for integration testing
-- HTML
-- CSS
+- HTML5
+- CSS3
+- Bootstrap
 - Git
 - Sublime Text
 
 
 Setup
 -----
-- Run npm install
-- Run bower install
-- The server is nodeJS using EJS templates. To run the webpage type 'node app.js'
+```sh
+$ npm install
+$ bower install
+- The server is nodeJS using EJS templates. To run the webpage type:
+$ node app.js
 
 Screenshot
 ---
@@ -45,15 +47,16 @@ Heroku (live)
 How to clone this repo
 ----
 ```sh
-git clone git@github.com:kevinlanzon/lizard-king.git
+$ git clone git@github.com:kevinlanzon/lizard-king.git
 ```
 
 How to run tests
 ----
 ```sh
-cd lizard-king
-run karma start
+$ cd lizard-king
+$ karma start
 ```
+
 Future Features
 -----
 - Add a persistence layer for the results with a database
