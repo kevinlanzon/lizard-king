@@ -2,7 +2,7 @@
   "name": "lizard-king",
   "version": "1.0.0",
   "description": "Lizard King ==========",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "karma start",
     "start": "node app.js",
@@ -25,6 +25,9 @@
     "karma-coverage": "^0.2.7",
     "karma-jasmine": "^0.3.5",
     "karma-phantomjs-launcher": "^0.1.4"
+  },
+  "engines": {
+    "node": "0.10.x"
   },
   "dependencies": {
     "bower": "^1.3.12",
