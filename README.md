@@ -29,7 +29,6 @@ Setup
 ```sh
 $ npm install
 $ bower install
-- The server is nodeJS using EJS templates. To run the webpage type:
 $ node app.js
 ```
 
